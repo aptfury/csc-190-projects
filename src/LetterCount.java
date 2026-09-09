@@ -23,8 +23,7 @@ public class LetterCount {
     }
 
     /**
-     * Requests a string input from the user. Ideally this would be modified to account for no input/empty string
-     * values, but I am not putting that much effort into an ungraded practice assignment.
+     * Requests a string input from the user.
      *
      * @param input [Scanner] - the scanner variable set up in main
      * @param req [String] - the message for the prompt provided to the user
@@ -32,8 +31,26 @@ public class LetterCount {
      */
     public static String requestInput(Scanner input, String req) {
         System.out.println(req);
+        String res = input.nextLine();
 
-        return input.next();
+        /*
+        The need for this if statement can be avoided by using input.next() instead of input.nextLine(), but I prefer
+         to include instructions for exiting the program and I wanted practice with accounting for edge cases.
+         */
+        if (res.isEmpty()) {
+            System.out.println("The provided input was empty. Please provide a response that is at least one " +
+                    "character long. Otherwise, type 'exit()' to terminate the program.");
+
+            res = requestInput(input, req);
+        }
+
+        // Only use when paired with the above if statement. See its comment for more information.
+        if (res.equalsIgnoreCase("exit()")) {
+            System.out.println("Exiting program...");
+            System.exit(0);
+        }
+
+        return res;
     }
 
     /**
