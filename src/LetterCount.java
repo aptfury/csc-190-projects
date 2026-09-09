@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class LetterCount {
     /**
-     * @param args [any] - no arguments needed or used
+     * @param args - no arguments needed or used
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
