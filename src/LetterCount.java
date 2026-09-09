@@ -5,8 +5,12 @@ import java.util.Scanner;
  * @version 09.09.26
  *
  * Counts the number of letters in a given word
+ *
+ * @implNote Updated to provide the user with a way to exit the program without having to enter the requested
+ * information. The method requestInput() also uses input.nextLine() instead of input.next() just to get practice
+ * with solving edge cases (empty strings in this case). The code can be further updated to provide a prompt such as
+ * "Enter a word (enter exit() to exit): " to allow for a user to exit the program while using input.next() instead.
  */
-
 public class LetterCount {
     /**
      * @param args - no arguments needed or used
@@ -14,7 +18,7 @@ public class LetterCount {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        String word = requestInput(input, "Enter a Word: ");
+        String word = requestInput(input, "Enter a word: ");
         char ch = requestInput(input, "Enter a letter: ").charAt(0);
 
         int count = letterCounter(word, ch);
