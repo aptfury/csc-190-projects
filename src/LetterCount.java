@@ -11,6 +11,7 @@ import java.util.Scanner;
  * with solving edge cases (empty strings in this case). The code can be further updated to provide a prompt such as
  * "Enter a word (enter exit() to exit): " to allow for a user to exit the program while using input.next() instead.
  */
+
 public class LetterCount {
     /**
      * @param args - no arguments needed or used
