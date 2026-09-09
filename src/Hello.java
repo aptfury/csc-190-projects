@@ -1,5 +1,5 @@
 /**
- * @author Blake Lemarr
+ * @author Blake
  * @version 09.09.26
  *
  * Prints "Hello!"
