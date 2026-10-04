@@ -1,9 +1,12 @@
 # Instructions
 
-> [!Note]
+> [!Important]
 > This is a project assigned by the instructor of my Java Programming Course. The instructions are not my own nor ar 
 they specific to or from the course material. My solutions are kept here for easier access and personal reference in 
 the future.
+>
+> _(I plan to remove this once the project is completed to respect CodeStepByStep's copyright. Please feel free to 
+reach out if I forget to.)_
 > 
 > _**Credit to [CodeStepByStep](https://www.codestepbystep.com/) for the coding problem.**_
 
