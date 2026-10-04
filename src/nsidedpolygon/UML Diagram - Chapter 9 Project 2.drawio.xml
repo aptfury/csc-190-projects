@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="F5Yc97SvUVdInHCiIjFi">
+    <mxGraphModel dx="960" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Exercise" vertex="1">
+          <mxGeometry height="69" width="160" x="120" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="2" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="17" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;u&gt;+ main(args:String[]): void&lt;/u&gt;" vertex="1">
+          <mxGeometry height="26" width="160" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="RegularPolygon" vertex="1">
+          <mxGeometry height="310" width="310" x="420" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- n: int&lt;div&gt;- side: double&lt;/div&gt;&lt;div&gt;- x: double = 0&lt;/div&gt;&lt;div&gt;- y: double = 0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="69" width="310" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="310" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ RegularPolygon()&lt;div&gt;+ RegularPolygon(n:int, side:double)&lt;/div&gt;&lt;div&gt;+ RegularPolygon(n:int, side:double, x:double, y:double)&lt;/div&gt;&lt;div&gt;+ getN(): int&lt;/div&gt;&lt;div&gt;+ setN(n:int): void&lt;/div&gt;&lt;div&gt;+ getSide(): double&lt;/div&gt;&lt;div&gt;+ setSide(side:double): void&lt;/div&gt;&lt;div&gt;+ getX(): double&lt;/div&gt;&lt;div&gt;+ setX(x:double): void&lt;/div&gt;&lt;div&gt;+ getY(): double&lt;/div&gt;&lt;div&gt;+ setY(y:double): void&lt;/div&gt;&lt;div&gt;+ getPerimeter(): double&lt;/div&gt;&lt;div&gt;+ getArea(): double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="207" width="310" y="103" as="geometry" />
+        </mxCell>
+        <mxCell id="9" edge="1" parent="1" source="2" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="6" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="250" y="290" as="sourcePoint" />
+            <mxPoint x="410" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
