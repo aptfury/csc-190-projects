@@ -146,7 +146,7 @@ class RegularPolygon {
      *
      * @return [double] perimeter
      */
-    protected double getPerimeter() {
+    public double getPerimeter() {
         return this.getN() * this.getSide();
     }
 
@@ -155,7 +155,7 @@ class RegularPolygon {
      *
      * @return [double] area
      */
-    protected double getArea() {
+    public double getArea() {
         return (this.getN() * Math.pow(this.getSide(), 2)) / (4 * Math.tan(Math.PI / this.getN()));
     }
 }
