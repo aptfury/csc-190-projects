@@ -6,7 +6,7 @@ package rectangle;
  *
  * Initializes instances of Rectangle objects to run their code and print the relevant measurements.
  *
- * @implNote  project in this rectangle package is taken from my answer to Chapter 9: Auto-Graded Programming Project
+ * @implNote The project in this rectangle package is taken from my answer to Chapter 9: Auto-Graded Programming Project
  * 1 in Introduction to Java Programming and Data Structures by Y. Daniel Liang.
  */
 public class Exercise {
