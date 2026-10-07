@@ -1,3 +1,5 @@
+package module1through4;
+
 import java.util.Scanner;
 
 /**
@@ -23,7 +25,7 @@ public class Ch7ProgProj1 {
     /**
      * Prompts the user to enter the number of students and return the grades for each
      *
-     * @return [double[]] - an array of student grades
+     * @return [double[]] - an array of module5.student grades
      */
     public static double[] recordGrades() {
         Scanner input = new Scanner(System.in);
@@ -43,10 +45,10 @@ public class Ch7ProgProj1 {
     }
 
     /**
-     * Use's the given student's grade to find and return the matching letter grade.
+     * Use's the given module5.student's grade to find and return the matching letter grade.
      *
-     * @param grade [double] - the student's grade
-     * @param grades [double[]] - the list of student grades
+     * @param grade [double] - the module5.student's grade
+     * @param grades [double[]] - the list of module5.student grades
      * @return [char] - the char representing the corresponding letter grade
      */
     public static char getLetterGrade(double grade, double[] grades) {
@@ -73,9 +75,9 @@ public class Ch7ProgProj1 {
     }
 
     /**
-     * Find the highest grade from the provided array of student grades.
+     * Find the highest grade from the provided array of module5.student grades.
      *
-     * @param grades [double[]] - the list of student grades
+     * @param grades [double[]] - the list of module5.student grades
      * @return [double] - the highest grade from the array
      */
     public static double getHighestGrade(double[] grades) {

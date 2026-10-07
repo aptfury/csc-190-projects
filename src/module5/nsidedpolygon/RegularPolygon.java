@@ -1,4 +1,4 @@
-package nsidedpolygon;
+package module5.nsidedpolygon;
 
 /**
  * @author Blake
@@ -8,7 +8,7 @@ package nsidedpolygon;
  * are available for data access and mutation, as well as two methods available for getting the perimeter and area of
  * the polygon. Methods are automatically triggered when an instance is created.
  *
- * @implNote The project in this nsidedpolygon package is taken from my answer to Chapter 9: Auto-Graded Programming
+ * @implNote The project in this module5.nsidedpolygon package is taken from my answer to Chapter 9: Auto-Graded Programming
  * Project 2 in Introduction to Java Programming and Data Structures by Y. Daniel Liang.
  */
 class RegularPolygon {

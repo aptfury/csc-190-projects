@@ -1,4 +1,4 @@
-package nsidedpolygon;
+package module5.nsidedpolygon;
 
 /**
  * @author Blake
@@ -6,7 +6,7 @@ package nsidedpolygon;
  *
  * Initializes instances of RegularPolygon objects to run their code and print the relevant measurements.
  *
- * @implNote The project in this nsidedpolygon package is taken from my answer to Chapter 9: Auto-Graded Programming
+ * @implNote The project in this module5.nsidedpolygon package is taken from my answer to Chapter 9: Auto-Graded Programming
  * Project 2 in Introduction to Java Programming and Data Structures by Y. Daniel Liang.
  */
 public class Exercise {

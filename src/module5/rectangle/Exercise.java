@@ -1,4 +1,4 @@
-package rectangle;
+package module5.rectangle;
 
 /**
  * @author Blake
@@ -6,7 +6,7 @@ package rectangle;
  *
  * Initializes instances of Rectangle objects to run their code and print the relevant measurements.
  *
- * @implNote The project in this rectangle package is taken from my answer to Chapter 9: Auto-Graded Programming Project
+ * @implNote The project in this module5.rectangle package is taken from my answer to Chapter 9: Auto-Graded Programming Project
  * 1 in Introduction to Java Programming and Data Structures by Y. Daniel Liang.
  */
 public class Exercise {

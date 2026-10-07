@@ -1,3 +1,5 @@
+package module1through4;
+
 import java.util.Scanner;
 
 /**
