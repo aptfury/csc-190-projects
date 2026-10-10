@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="EcokZhEiJoiC7d36w6b0">
-    <mxGraphModel dx="771" dy="221" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1030" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,6 +39,12 @@
         </mxCell>
         <mxCell id="EQxClIGYQh9N0wqDuer1-12" parent="EQxClIGYQh9N0wqDuer1-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ GameObject()&lt;div&gt;+ GameObject(x:int, y:int)&lt;/div&gt;&lt;div&gt;+ GameObject(x:int, y:int, layer:int)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getX(): int&lt;/div&gt;&lt;div&gt;+ getY(): int&lt;/div&gt;&lt;div&gt;+ getLayer(): int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setX(x:int): void&lt;/div&gt;&lt;div&gt;+ setY(y:int): void&lt;/div&gt;&lt;div&gt;+ setLayer(layer:int): void&lt;/div&gt;" vertex="1">
           <mxGeometry height="172" width="200" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="2n71z_s48V3WM_9e5E1D-1" edge="1" parent="1" source="EQxClIGYQh9N0wqDuer1-6" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="310" y="170" as="sourcePoint" />
+            <mxPoint x="470" y="170" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

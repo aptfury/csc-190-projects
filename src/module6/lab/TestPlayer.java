@@ -5,6 +5,9 @@ package module6.lab;
  * @version 10.07.26
  *
  * A class for a test player based on the player class.
+ *
+ * @implNote I went a bit outside the specification of the assignment to try and cover potential use cases that may
+ * be needed.
  */
 public class TestPlayer {
     private static Player player;

@@ -7,6 +7,9 @@ import java.security.InvalidParameterException;
  * @version 10.05.26
  *
  * A class to hold a player's data and manage date updates and retrieval.
+ *
+ * @implNote I went a bit outside the specification of the assignment to try and cover potential use cases that may
+ * be needed.
  */
 public class Player {
     private String name;
@@ -43,6 +46,8 @@ public class Player {
     }
 
     /**
+     * Retrieve player name
+     *
      * @return String
      */
     public String getName() {
@@ -50,6 +55,8 @@ public class Player {
     }
 
     /**
+     * Retrieve player tag
+     *
      * @return String
      */
     public String getTag() {
@@ -57,6 +64,8 @@ public class Player {
     }
 
     /**
+     * Retrieve number of games played
+     *
      * @return int
      */
     public int getGamesPlayed() {
@@ -64,6 +73,8 @@ public class Player {
     }
 
     /**
+     * Retrieve number of wins
+     *
      * @return int
      */
     public int getWins() {
@@ -71,6 +82,8 @@ public class Player {
     }
 
     /**
+     * Retrieve number of losses
+     *
      * @return int
      */
     public int getLosses() {
@@ -78,6 +91,8 @@ public class Player {
     }
 
     /**
+     * Retrieve win ratio
+     *
      * @return double
      */
     public double getWinRatio() {
@@ -86,6 +101,7 @@ public class Player {
 
     /**
      * Returns a string of the player's name, tag, and win ratio
+     *
      * @return String
      */
     public String getData() {
@@ -98,6 +114,8 @@ public class Player {
     }
 
     /**
+     * Updates player tag
+     *
      * @param tag [String] new player tag
      */
     public void setTag(String tag) {
