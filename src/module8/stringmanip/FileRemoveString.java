@@ -3,8 +3,6 @@ package module8.stringmanip;
 import java.io.File;
 import java.io.PrintWriter;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -34,7 +32,7 @@ public class FileRemoveString {
             }
         }
         catch (Exception e) {
-            System.out.println("SCANNER || " + e.getMessage());
+            System.out.println(e.getMessage());
         }
 
         return fileData;
@@ -45,7 +43,7 @@ public class FileRemoveString {
             output.print(data);
         }
         catch (Exception e) {
-            System.out.println("PRINT WRITER || " + e.getMessage());
+            System.out.println(e.getMessage());
         }
     }
 }
