@@ -18,7 +18,7 @@ import java.util.Random;
  *
  * Displays a 10 x 10 Binary Matrix with the binaries randomly generated.
  */
-public class SquareMatrix extends Application {
+public class BinaryMatrix extends Application {
     private static final int MAX_COL = 10;
     private static final int MAX_ROW = 10;
 
