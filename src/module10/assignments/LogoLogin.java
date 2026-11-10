@@ -25,7 +25,15 @@ import javafx.scene.shape.Ellipse;
 
 import javafx.stage.Stage;
 
-public class TeddyLogin extends Application {
+/**
+ * @author Blake
+ * @version 11.06.26
+ *
+ * A test for a logo and login example I want to prompt Thaura for in my AI assignment.
+ * Not providing in depth comments since this isn't an assignment submission and was purely
+ * experimental.
+ */
+public class LogoLogin extends Application {
 
     public static void main(String[] args) {
         launch(args);
