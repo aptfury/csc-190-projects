@@ -1,4 +1,4 @@
-package module11;
+package module11.assignments;
 
 import javafx.application.Application;
 
